@@ -1,0 +1,339 @@
+Calculating words similarities...
+analytique {'-2unD': 3, '+1(PONCT)': 2}
+morbide {'+1(PONCT)': 2, '-2unD': 3}
+
+
+
+
+analytique {'-2unD': 3, '+1(PONCT)': 2}
+mobilisateur {'+1(PONCT)': 2, '-2unD': 3}
+
+
+
+
+québécois {'+1(PONCT)': 5, '-1(PONCT)': 2}
+fauve {'-1(PONCT)': 2, '+1(PONCT)': 5}
+
+
+
+
+reconnaissant {'+1(PONCT)': 5, '+2$': 3, '+3$': 3}
+prétentieux {'+1(PONCT)': 5, '+2$': 3, '+3$': 3}
+
+
+
+
+fauve {'-1(PONCT)': 2, '+1(PONCT)': 5}
+québécois {'+1(PONCT)': 5, '-1(PONCT)': 2}
+
+
+
+
+fatigant {'-1êtreV': 2, '+1(PONCT)': 6, '+2(PONCT)': 3}
+épouvantable {'+1(PONCT)': 6, '+2(PONCT)': 3, '-1êtreV': 2}
+
+
+
+
+croyant {'+1(PONCT)': 4}
+exaltant {'+1(PONCT)': 3}
+
+
+
+
+croyant {'+1(PONCT)': 4}
+racé {'+1(PONCT)': 4}
+
+
+
+
+croyant {'+1(PONCT)': 4}
+fougueux {'+1(PONCT)': 2}
+
+
+
+
+croyant {'+1(PONCT)': 4}
+rusé {'+1(PONCT)': 2}
+
+
+
+
+provincial {'+1(PONCT)': 2, '-2leD': 2, '+1deP': 2}
+tacheter {'+1deP': 2, '+1(PONCT)': 2, '-2leD': 2}
+
+
+
+
+tentant {'+1(PONCT)': 5, '+2$': 2, '+3$': 2}
+inactif {'+1(PONCT)': 5, '+2$': 2, '+3$': 2}
+
+
+
+
+indigène {'+1(PONCT)': 5, '-2leD': 2}
+occulte {'+1(PONCT)': 5, '-2leD': 2}
+
+
+
+
+morbide {'+1(PONCT)': 2, '-2unD': 3}
+analytique {'-2unD': 3, '+1(PONCT)': 2}
+
+
+
+
+morbide {'+1(PONCT)': 2, '-2unD': 3}
+mobilisateur {'+1(PONCT)': 2, '-2unD': 3}
+
+
+
+
+croustillant {'+1(PONCT)': 3, '+2(PONCT)': 2}
+technocratique {'+1(PONCT)': 3, '+2(PONCT)': 2}
+
+
+
+
+exaltant {'+1(PONCT)': 3}
+croyant {'+1(PONCT)': 4}
+
+
+
+
+exaltant {'+1(PONCT)': 3}
+racé {'+1(PONCT)': 4}
+
+
+
+
+exaltant {'+1(PONCT)': 3}
+fougueux {'+1(PONCT)': 2}
+
+
+
+
+exaltant {'+1(PONCT)': 3}
+rusé {'+1(PONCT)': 2}
+
+
+
+
+vendéen {'+1(PONCT)': 3, '+2$': 2, '+3$': 2}
+alarmiste {'+1(PONCT)': 3, '+2$': 2, '+3$': 2}
+
+
+
+
+vendéen {'+1(PONCT)': 3, '+2$': 2, '+3$': 2}
+vulgaire {'+1(PONCT)': 3, '+2$': 2, '+3$': 2}
+
+
+
+
+rectangulaire {'+1(PONCT)': 2, '-2deP': 3}
+impétueux {'-2deP': 3, '+1(PONCT)': 2}
+
+
+
+
+mobilisateur {'+1(PONCT)': 2, '-2unD': 3}
+analytique {'-2unD': 3, '+1(PONCT)': 2}
+
+
+
+
+mobilisateur {'+1(PONCT)': 2, '-2unD': 3}
+morbide {'+1(PONCT)': 2, '-2unD': 3}
+
+
+
+
+épouvantable {'+1(PONCT)': 6, '+2(PONCT)': 3, '-1êtreV': 2}
+fatigant {'-1êtreV': 2, '+1(PONCT)': 6, '+2(PONCT)': 3}
+
+
+
+
+tacheter {'+1deP': 2, '+1(PONCT)': 2, '-2leD': 2}
+provincial {'+1(PONCT)': 2, '-2leD': 2, '+1deP': 2}
+
+
+
+
+alarmiste {'+1(PONCT)': 3, '+2$': 2, '+3$': 2}
+vendéen {'+1(PONCT)': 3, '+2$': 2, '+3$': 2}
+
+
+
+
+alarmiste {'+1(PONCT)': 3, '+2$': 2, '+3$': 2}
+vulgaire {'+1(PONCT)': 3, '+2$': 2, '+3$': 2}
+
+
+
+
+inactif {'+1(PONCT)': 5, '+2$': 2, '+3$': 2}
+tentant {'+1(PONCT)': 5, '+2$': 2, '+3$': 2}
+
+
+
+
+prétentieux {'+1(PONCT)': 5, '+2$': 3, '+3$': 3}
+reconnaissant {'+1(PONCT)': 5, '+2$': 3, '+3$': 3}
+
+
+
+
+impétueux {'-2deP': 3, '+1(PONCT)': 2}
+rectangulaire {'+1(PONCT)': 2, '-2deP': 3}
+
+
+
+
+technocratique {'+1(PONCT)': 3, '+2(PONCT)': 2}
+croustillant {'+1(PONCT)': 3, '+2(PONCT)': 2}
+
+
+
+
+stérile {'+1(PONCT)': 4, '+2$': 2, '+3$': 2}
+embarrassant {'+1(PONCT)': 4, '+2$': 2, '+3$': 2}
+
+
+
+
+remboursable {'+1(PONCT)': 3, '-1(PONCT)': 2}
+satanique {'-1(PONCT)': 2, '+1(PONCT)': 3}
+
+
+
+
+remboursable {'+1(PONCT)': 3, '-1(PONCT)': 2}
+abominable {'-1(PONCT)': 2, '+1(PONCT)': 3}
+
+
+
+
+racé {'+1(PONCT)': 4}
+croyant {'+1(PONCT)': 4}
+
+
+
+
+racé {'+1(PONCT)': 4}
+exaltant {'+1(PONCT)': 3}
+
+
+
+
+racé {'+1(PONCT)': 4}
+fougueux {'+1(PONCT)': 2}
+
+
+
+
+racé {'+1(PONCT)': 4}
+rusé {'+1(PONCT)': 2}
+
+
+
+
+fougueux {'+1(PONCT)': 2}
+croyant {'+1(PONCT)': 4}
+
+
+
+
+fougueux {'+1(PONCT)': 2}
+exaltant {'+1(PONCT)': 3}
+
+
+
+
+fougueux {'+1(PONCT)': 2}
+racé {'+1(PONCT)': 4}
+
+
+
+
+fougueux {'+1(PONCT)': 2}
+rusé {'+1(PONCT)': 2}
+
+
+
+
+vulgaire {'+1(PONCT)': 3, '+2$': 2, '+3$': 2}
+vendéen {'+1(PONCT)': 3, '+2$': 2, '+3$': 2}
+
+
+
+
+vulgaire {'+1(PONCT)': 3, '+2$': 2, '+3$': 2}
+alarmiste {'+1(PONCT)': 3, '+2$': 2, '+3$': 2}
+
+
+
+
+rusé {'+1(PONCT)': 2}
+croyant {'+1(PONCT)': 4}
+
+
+
+
+rusé {'+1(PONCT)': 2}
+exaltant {'+1(PONCT)': 3}
+
+
+
+
+rusé {'+1(PONCT)': 2}
+racé {'+1(PONCT)': 4}
+
+
+
+
+rusé {'+1(PONCT)': 2}
+fougueux {'+1(PONCT)': 2}
+
+
+
+
+occulte {'+1(PONCT)': 5, '-2leD': 2}
+indigène {'+1(PONCT)': 5, '-2leD': 2}
+
+
+
+
+embarrassant {'+1(PONCT)': 4, '+2$': 2, '+3$': 2}
+stérile {'+1(PONCT)': 4, '+2$': 2, '+3$': 2}
+
+
+
+
+satanique {'-1(PONCT)': 2, '+1(PONCT)': 3}
+remboursable {'+1(PONCT)': 3, '-1(PONCT)': 2}
+
+
+
+
+satanique {'-1(PONCT)': 2, '+1(PONCT)': 3}
+abominable {'-1(PONCT)': 2, '+1(PONCT)': 3}
+
+
+
+
+abominable {'-1(PONCT)': 2, '+1(PONCT)': 3}
+remboursable {'+1(PONCT)': 3, '-1(PONCT)': 2}
+
+
+
+
+abominable {'-1(PONCT)': 2, '+1(PONCT)': 3}
+satanique {'-1(PONCT)': 2, '+1(PONCT)': 3}
+
+
+
+
+[53.50685540s] simsCal()
+

@@ -1,0 +1,242 @@
+Extracting contexts from corpora...
+100%|█████████████████████████████████████████████████████████████████████████████████| 79/79 [09:39<00:00,  7.70s/it]
+100%|███████████████████████████████████████████████████████████████████| 1745728/1745728 [00:06<00:00, 269199.91it/s]
+Filtering insufficient data and converting into 2D NumPy array... DONE
+
+Extracting contexts from corpora... DONE: 79 corporus(a) processed.
+                 0tors...
+count  8002.000000
+mean      0.149713
+std       0.266134
+min       0.000744
+25%       0.006636
+50%       0.029004
+75%       0.135536
+max       1.000000
+                 0
+count  5047.000000
+mean      0.105607
+std       0.193168
+min       0.000233
+25%       0.001668
+50%       0.008189
+75%       0.108453
+max       1.000000
+                  0
+count  23145.000000
+mean       0.249471
+std        0.287056
+min        0.000161
+25%        0.029185
+50%        0.125274
+75%        0.406504
+max        1.000000
+                  0
+count  11363.000000
+mean       0.103758
+std        0.229473
+min        0.000047
+25%        0.000167
+50%        0.004430
+75%        0.056609
+max        1.000000
+Weighting word vectors... DONE
+
+[1.52358916s] vecsWeight()
+
+Calculating words similarities...
+	Processing CAT A...
+		Converting into SciPy CSC sparse matrix... DONE
+		Calculating vectors' norms... DONE
+		Calculating vectors' dot product... DONE
+		Calculating vectors' cosine similarities... DONE
+	Processing CAT A... DONE
+	Processing CAT ADV...
+		Converting into SciPy CSC sparse matrix... DONE
+		Calculating vectors' norms... DONE
+		Calculating vectors' dot product... DONE
+		Calculating vectors' cosine similarities... DONE
+	Processing CAT ADV... DONE
+	Processing CAT N...
+		Converting into SciPy CSC sparse matrix... DONE
+		Calculating vectors' norms... DONE
+		Calculating vectors' dot product... DONE
+		Calculating vectors' cosine similarities... DONE
+	Processing CAT N... DONE
+	Processing CAT V...
+		Converting into SciPy CSC sparse matrix... DONE
+		Calculating vectors' norms... DONE
+		Calculating vectors' dot product... DONE
+		Calculating vectors' cosine similarities... DONE
+	Processing CAT V... DONE
+Calculating words similarities... DONE
+
+[1.49932111s] simsCal()
+
+Generating thesaurus for each word the first 10 most similar word(s)... DONE
+
+[1.49420556s] thesGen()
+
+Outputting thes file... DONE
+python3 tmp.py  562.47s user 18.09s system 98% cpu 9:47.50 total
+
+Extracting contexts from corpora...
+100%|██████████████████████████████████████████████████████████████████████████████████████| 79/79 [14:49<00:00, 11.30s/it]
+100%|████████████████████████████████████████████████████████████████████████| 1745728/1745728 [00:09<00:00, 180627.19it/s]
+Filtering insufficient data and converting into 2D NumPy array... DONE
+
+Extracting contexts from corpora... DONE: 79 corporus(a) processed.
+                  0ors...
+count  14165.000000
+mean       0.102012
+std        0.172411
+min        0.000247
+25%        0.004037
+50%        0.022906
+75%        0.129759
+max        1.000000
+                 0
+count  8650.000000
+mean      0.067977
+std       0.135354
+min       0.000105
+25%       0.000810
+50%       0.004458
+75%       0.063478
+max       1.000000
+                  0
+count  64973.000000
+mean       0.135041
+std        0.181845
+min        0.000070
+25%        0.010100
+50%        0.057482
+75%        0.199784
+max        1.000000
+                  0
+count  25292.000000
+mean       0.051558
+std        0.131784
+min        0.000028
+25%        0.000128
+50%        0.003630
+75%        0.038405
+max        1.000000
+Weighting word vectors... DONE
+
+[4.32530961s] vecsWeight()
+
+Calculating words similarities...
+	Processing CAT A...
+		Converting into SciPy CSC sparse matrix... DONE
+		Calculating vectors' norms... DONE
+		Calculating vectors' dot product... DONE
+		Calculating vectors' cosine similarities... DONE
+	Processing CAT A... DONE
+	Processing CAT ADV...
+		Converting into SciPy CSC sparse matrix... DONE
+		Calculating vectors' norms... DONE
+		Calculating vectors' dot product... DONE
+		Calculating vectors' cosine similarities... DONE
+	Processing CAT ADV... DONE
+	Processing CAT N...
+		Converting into SciPy CSC sparse matrix... DONE
+		Calculating vectors' norms... DONE
+		Calculating vectors' dot product... DONE
+		Calculating vectors' cosine similarities... DONE
+	Processing CAT N... DONE
+	Processing CAT V...
+		Converting into SciPy CSC sparse matrix... DONE
+		Calculating vectors' norms... DONE
+		Calculating vectors' dot product... DONE
+		Calculating vectors' cosine similarities... DONE
+	Processing CAT V... DONE
+Calculating words similarities... DONE
+
+[5.69747292s] simsCal()
+
+Generating thesaurus for each word the first 10 most similar word(s)... DONE
+
+[4.99204040s] thesGen()
+
+Outputting thes file... DONE
+Extracting contexts from corpora...
+100%|██████████████████████████████████████████████████████████████████████████████████████| 79/79 [23:00<00:00, 31.75s/it]
+100%|█████████████████████████████████████████████████████████████████████████| 1745728/1745728 [00:32<00:00, 54527.52it/s]
+Filtering insufficient data and converting into 2D NumPy array... DONE
+
+Extracting contexts from corpora... DONE: 79 corporus(a) processed.
+                  0ors...
+count  19656.000000
+mean       0.078602
+std        0.134207
+min        0.000179
+25%        0.002704
+50%        0.017979
+75%        0.108876
+max        1.000000
+                  0
+count  12007.000000
+mean       0.050720
+std        0.102315
+min        0.000072
+25%        0.000424
+50%        0.002916
+75%        0.052713
+max        1.000000
+                   0
+count  100934.000000
+mean        0.099322
+std         0.139895
+min         0.000028
+25%         0.006013
+50%         0.043441
+75%         0.148195
+max         1.000000
+                  0
+count  36770.000000
+mean       0.037286
+std        0.099726
+min        0.000019
+25%        0.000068
+50%        0.002102
+75%        0.025866
+max        1.000000
+Weighting word vectors... DONE
+
+[6.33104700s] vecsWeight()
+
+Calculating words similarities...
+	Processing CAT A...
+		Converting into SciPy CSC sparse matrix... DONE
+		Calculating vectors' norms... DONE
+		Calculating vectors' dot product... DONE
+		Calculating vectors' cosine similarities... DONE
+	Processing CAT A... DONE
+	Processing CAT ADV...
+		Converting into SciPy CSC sparse matrix... DONE
+		Calculating vectors' norms... DONE
+		Calculating vectors' dot product... DONE
+		Calculating vectors' cosine similarities... DONE
+	Processing CAT ADV... DONE
+	Processing CAT N...
+		Converting into SciPy CSC sparse matrix... DONE
+		Calculating vectors' norms... DONE
+		Calculating vectors' dot product... DONE
+		Calculating vectors' cosine similarities... DONE
+	Processing CAT N... DONE
+	Processing CAT V...
+		Converting into SciPy CSC sparse matrix... DONE
+		Calculating vectors' norms... DONE
+		Calculating vectors' dot product... DONE
+		Calculating vectors' cosine similarities... DONE
+	Processing CAT V... DONE
+Calculating words similarities... DONE
+
+[5.30297981s] simsCal()
+
+Generating thesaurus for each word the first 10 most similar word(s)... DONE
+
+[7.24645184s] thesGen()
+
+Outputting thes file... DONE

@@ -1,0 +1,161 @@
+ ✘ mehec@MBAdP  ~/nlp/prjTAL_L3/codes/29.Z_AzDist_0.10.10b-0.10_working  python3 tmp.py -m 2-gram; python3 tmp.py -m 3-gram; python3 tmp.py -m 4-gram; python3 tmp.py -m 5-gram; python3 tmp.py -m 6-gram; python3 tmp.py -m 7-gram; python3 tmp.py -m 8-gram; python3 tmp.py -m 9-gram
+Extracting contexts from corpora...
+100%|█████████████████████████████████████████████████████████████████████████████████| 79/79 [12:48<00:00, 10.44s/it]
+2755ering insufficient data...██████████████████████████████████████████| 1745728/1745728 [00:09<00:00, 183921.16it/s]
+
+[0.00363492s] k()
+
+2235
+
+[0.00254784s] k()
+
+5019
+
+[0.02373150s] k()
+
+3763
+
+[0.00653085s] k()
+
+Filtering insufficient data... DONE
+
+Extracting contexts from corpora... DONE: 79 corporus(a) processed.
+Weighting word vectors...
+[0.00006215s] vecsWeight()
+
+Calculating words similarities...
+	Processing CAT A...
+Traceback (most recent call last):iPy CSC sparse matrix... 1/4
+  File "tmp.py", line 459, in <module>
+    dist = AzDist(args.corpsdir, args.cats, args.mode,
+  File "tmp.py", line 69, in __init__
+    self.sims = self.simsCal()
+  File "tmp.py", line 28, in clocked
+    result = func(*args, **kwargs)
+  File "tmp.py", line 348, in simsCal
+    return Cosine()
+  File "tmp.py", line 310, in Cosine
+    wVecs = sp.csc_matrix(self.wVecs[cat][0])
+TypeError: 'NoneType' object is not subscriptable
+Extracting contexts from corpora...
+100%|█████████████████████████████████████████████████████████████████████████████████| 79/79 [19:50<00:00, 16.67s/it]
+4223ering insufficient data...██████████████████████████████████████████| 1745728/1745728 [00:15<00:00, 109199.38it/s]
+
+[0.00734619s] k()
+
+3774
+
+[0.00359443s] k()
+
+11646
+
+[0.04249421s] k()
+
+7789
+
+[0.01428064s] k()
+
+Filtering insufficient data... DONE
+
+Extracting contexts from corpora... DONE: 79 corporus(a) processed.
+Weighting word vectors...
+[0.00008181s] vecsWeight()
+
+Calculating words similarities...
+	Processing CAT A...
+Traceback (most recent call last):iPy CSC sparse matrix... 1/4
+  File "tmp.py", line 459, in <module>
+    dist = AzDist(args.corpsdir, args.cats, args.mode,
+  File "tmp.py", line 69, in __init__
+    self.sims = self.simsCal()
+  File "tmp.py", line 28, in clocked
+    result = func(*args, **kwargs)
+  File "tmp.py", line 348, in simsCal
+    return Cosine()
+  File "tmp.py", line 310, in Cosine
+    wVecs = sp.csc_matrix(self.wVecs[cat][0])
+TypeError: 'NoneType' object is not subscriptable
+Extracting contexts from corpora...
+100%|█████████████████████████████████████████████████████████████████████████████████| 79/79 [38:26<00:00, 67.35s/it]
+5417ering insufficient data...███████████████████████████████████████████| 1745728/1745728 [01:03<00:00, 27361.26it/s]
+
+[0.27474190s] k()
+
+5087
+
+[0.14346924s] k()
+
+16278
+
+[0.91583857s] k()
+
+11369
+
+[0.19969481s] k()
+
+Filtering insufficient data... DONE
+
+Extracting contexts from corpora... DONE: 79 corporus(a) processed.
+Weighting word vectors...
+[0.00096046s] vecsWeight()
+
+Calculating words similarities...
+	Processing CAT A...
+Traceback (most recent call last):iPy CSC sparse matrix... 1/4
+  File "tmp.py", line 459, in <module>
+    dist = AzDist(args.corpsdir, args.cats, args.mode,
+  File "tmp.py", line 69, in __init__
+    self.sims = self.simsCal()
+  File "tmp.py", line 28, in clocked
+    result = func(*args, **kwargs)
+  File "tmp.py", line 348, in simsCal
+    return Cosine()
+  File "tmp.py", line 310, in Cosine
+    wVecs = sp.csc_matrix(self.wVecs[cat][0])
+TypeError: 'NoneType' object is not subscriptable
+Extracting contexts from corpora...
+100%|██████████████████████████████████████████████████████████████████████████████| 79/79 [2:03:21<00:00, 343.03s/it]
+6178ering insufficient data...████████████████████████████████████████████| 1745728/1745728 [06:23<00:00, 4548.14it/s]
+
+[0.60811513s] k()
+
+6153
+
+[0.16213204s] k()
+
+19834
+
+[15.37515547s] k()
+
+14589
+
+[0.48295985s] k()
+
+Filtering insufficient data... DONE
+
+Extracting contexts from corpora... DONE: 79 corporus(a) processed.
+Weighting word vectors...
+[0.00305893s] vecsWeight()
+
+Calculating words similarities...
+	Processing CAT A...
+Traceback (most recent call last):iPy CSC sparse matrix... 1/4
+  File "tmp.py", line 459, in <module>
+    dist = AzDist(args.corpsdir, args.cats, args.mode,
+  File "tmp.py", line 69, in __init__
+    self.sims = self.simsCal()
+  File "tmp.py", line 28, in clocked
+    result = func(*args, **kwargs)
+  File "tmp.py", line 348, in simsCal
+    return Cosine()
+  File "tmp.py", line 310, in Cosine
+    wVecs = sp.csc_matrix(self.wVecs[cat][0])
+TypeError: 'NoneType' object is not subscriptable
+Extracting contexts from corpora...
+ 97%|███████████████████████████████████████████████████████████████████████████  | 77/79 [6:55:48<39:40, 1190.40s/it[1]    42134 killed     python3 tmp.py -m 6-gram█████████████▎              | 1358099/1718937 [18:00<16:36, 362.24it/s]
+Extracting contexts from corpora...
+  0%|                                                                                          | 0/79 [00:00<?, ?it/s[1]    42602 killed     python3 tmp.py -m 7-gram                           | 549083/1713998 [00:11<00:34, 33548.71it/s]
+Extracting contexts from corpora...
+  0%|                                                                                          | 0/79 [00:00<?, ?it/s[1]    42605 killed     python3 tmp.py -m 8-gram                            | 91690/1713998 [00:02<00:42, 38622.59it/s]
+Extracting contexts from corpora...
+  0%|                                                                                          | 0/79 [00:00<?, ?it/s[1]    42608 killed     python3 tmp.py -m 9-gram                            | 78184/1713998 [00:02<00:45, 35678.70it/s]

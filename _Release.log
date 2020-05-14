@@ -1,0 +1,140 @@
+AzEval_0.2-AzDist_0.17+46.Z
+Architecturally rewritten, fully functional
+
+AzEval_0.1.1-AzDist_0.17+45.Z
+First functional version, has bugs
+
+AzEval_0.1-AzDist_0.17+43.A
+partially finished
+
+1.0-0.17+44.Z
+completed comments
+added ReadMe
+
+0.17-0.16-0.15+42.Z
+merged 0.15 and 0.16
+
+0.16-0.14b+41.Z
+added sFunc Lin
+
+0.14b-0.14a+40.Z
+added sFunc Jaccard (some abnormal negative values corrected, others resulted from wFunc TTest)
+
+0.15-0.13+39.Z
+now possible to output in DataFrame csv format.
+
+0.14a-0.13+38.Z
+no release: tried to implement jaccard similarity function and failed (negative values found). suspended for further development.
+
+0.13-0.12+37.Z
+rewritten sFunc Cosine with SciPy built-in function
+
+0.12-0.11+36.Z
+added wFunc: at glance, has better performance and accuracy than with RelFreq, but worse accuracy than TTest, to be verified with AzEval
+
+0.11-0.10.26+35.Z
+added wFunc TTest: at glance, has better performance and accuracy than with RelFreq, to be verified with AzEval
+
+0.10.26-0.10.25+33.Z
+term rectification: CAT -> PoS
+
+0.10.25-0.10.20b+32.Z
+now filters off the abnormal high frequency contexts, the exact value to be determined by experiments
+
+0.11a-0.10.10b+31.Z
+no release: attempt to improve accuracy via the use of refined CAT in contexts failed
+
+0.10.20b-0.10.10b+30.Z
+achieved a better accuracy with restriction of the secondary words to A, ADV, N, V cats
+
+0.10.10b-0.10+29.Z
+abandonning matrixing from source: not memory friendly
+personalized dict to matrix conversion, bypassing Pandas, pretty good speed
+filtering wordCounts and contextCounts as does FreDist (100 times limit)
+
+0.10.20a-0.10.10a+28.Z
+no release: attempt to solve the memory issue (with restricted matrix size) failed: too many restrictions to matrix size.
+
+0.10.30-0.10.10+27.Z
+no release: attempt to solve the memory issue (with sparse matrix: too slow) and correct (mostly) erratic similarity results failed.
+
+0.10.10a-0.10+26.Z
+matrixing from source: beggining at cttsExtract level
+known issue: memory depletion with large corpus, cause: dense matrix. have tried with lil_matrix but is 4 times slower, dok_matrix even worse
+
+0.10-0.9+25.Z
+now possible to pass parameters from commandline arguments, ready to interface with AzEval.py
+unfinished: output path set
+
+0.9-0.8+23.Z
+added thesGen part
+
+0.8-0.7b10+22.Z
+added RelFreq weigt function
+put the low freq words/contexts trimming part into the vecsWeight part (passing the contexts trimming for the moment)
+the conversion into DF format has been advanced in the vecsWeight part
+
+0.7b10-0.7b5b+21.Z
+deploying scipy sparse matrix(csc_matrix, note that csc, coo and lil show not much difference in performance with setting 3-gram/1 corpus/"N") in simsCal, cut the time nearly by half, especially for the dot product part. Further improvements can be made upon the conversion dict-DataFrame-sparse matrix: DF could be eliminated altogether and dict might be replaced directly from cttsExtract by sparse matrix(possibly lil_matrix)
+
+0.7b5b-0.7b3+20.Z
+success in speeding up the vector norms cal with numexpr
+stock the sims as (sims in n x n array, column names) to avoid time consumption by transforming the array into DataFrame format.
+debug: numpy over numexpr reinstated for calculating vectors' norms, formerly lacking the square part of "sum(wVecs**2)", bug originated from 0.7b5
+
+0.7b5a-0.7b3+19.Z
+no release: attempt in applying the cosine function for all categories altogether (to take avantage of Numexpr's better performance for greater arrays) failed: depletion of memory due to too large array size
+
+0.7b3-0.7b2+18bis.Z
+minor improvement: simsCal: del unnecessary variables immediately after use to alleviate memory depletion 
+
+0.7b2-0.7b+18.Z
+failed in attempting to use numexpr to speed up for most calculations: array not large enough to compensate for dispenses: https://github.com/pydata/numexpr/issues/301#issuecomment-388097698
+-> only one cal successfully speeded up: simCos=wVecsDot*normsOuter
+a degraded version of progress bar added for simsCal
+
+0.7b-0.6b10+16.Z
+rewrite simsCal with numpy and pandas(cosine only), great speed improvements (simsCal part): 45min(CPython) vs 75min(PyPy3) with "N" CAT only for all 79 corpora
+known issue: compatibility with pypy3 compromised by numpy, pandas (and future numexpr)
+	     no progress bar for simsCal due to incompatibility tqdm/numpy
+
+0.6c+14bis.Z
+no release: aborted due to mathematical error
+#normalize the vectors before calculating similarities, thus no normalization needed in cosine equation, speed up -> mathematical error, assumption incorrect
+
+0.7b-0.6b6+15.Z
+no release, version development suspended after bugs found in precedent versions 0.6b6
+
+0.6b10+14.Z
+improvements: simsCal: continue loop earlier when possible
+		       avoid multiple cal of sumXiPow
+	      cttsExtract.ExtractNGrms: all ponctuation marks are now account for as "(PONCT)"
+debug: cttsExtract.ExtractNGrms: earlier versions lack one loop of j, may cause loss of certain contexts -> corrected by introducing passPrev and passNext
+
+0.6b6+13.Z
+minor improvements
+
+0.6b5+12.Z
+multiple performance enhancement
+pypy3 compatible (to jit up the speed, cut at least half even 2/3 of time comparing to that of CPython)
+known issue: progress bar tqdm causes random deadlock under pypy
+
+0.7a+11.Z
+no release: multiple attempts in accelerating cttsExtract via multithreading/processing failed, it seems that with GIL single threading is the fastest way
+
+0.6b+10.Z
+structure change: n-grams tracing with corpus[] indexes (previously only bigram supported) thus one corpus at a time
+preprocessing of corpus with re
+primary words separately stocked by CATs
+
+0.6a+09.Z
+no release: attempted structure change failed while altering corpus parsing mode
+
+0.5+08.Z
+half matrix calculation
+
+0.4.2+07.Z
+added progress bar (tqdm)
+
+0.4.1+06.Z
+added timer for important functions
