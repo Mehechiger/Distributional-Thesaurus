@@ -28,8 +28,8 @@ Advanced parameters could be passed to AzDist under command line while launching
 | `-p PATH`<br />`--path PATH`                                 | set output (abs) path; default is path of AzDist.py          |
 
 **Authors**
-AN Vo Tuan Anh
-ZHAO Fang
+A.V.T.A.
+Z.F.
 
 **Licence**
 MIT
